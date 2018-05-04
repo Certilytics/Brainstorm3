@@ -1,0 +1,40 @@
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# These allow the documentation to be updated with newer releases
+# of Brainstorm, Scala, and Spark
+
+BRAINSTORM_VERSION: 3.0.0
+BRAINSTORM_VERSION_SHORT: 3.0.0
+SPARK_VERSION: 2.2.0
+SCALA_BINARY_VERSION: "2.11"
+SCALA_VERSION: "2.11.8"
+BRAINSTORM_ISSUE_TRACKER_URL: https://github.com/certilytics/brainstorm3/issues
+BRAINSTORM_GITHUB_URL: https://github.com/certilytics/brainstorm3
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
